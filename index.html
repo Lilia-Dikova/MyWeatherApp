@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cherish&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/fav.ico" type="image/x-icon"/>
+    <title>Document</title>
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1 class="anim">WEATHER <span class="anim">APi</span></h1>
+        </div>
+        <a id="dark-mode-toggler"><i class="anim fa-solid fa-circle-half-stroke"></i></a>
+    </header>
+
+    <div class="container">
+        <div class="search-container">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="x-mark">
+                <i class="fa-solid fa-circle-xmark"></i>
+            </div>
+            <button class="btn-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <input id="city-name" type="text" spellcheck="true" placeholder="enter location...">
+        </div>
+    </div>
+
+    <main>
+
+        <div class="main-container">
+
+            <div class="forecast-main">
+                <h2 id="city-title">ENTER CITY NAME</h2>
+                <div>
+                    <img id="weather-image" src="" alt="">
+                    <p id="description" ></p>
+                </div>
+                <h3 id="temp">&nbsp;</h3>
+            </div>
+
+            <div class="forecast">
+                <div class="forecast-details">
+
+                    <div class="icons">
+                        <div>
+                            <p> <i class="fa-solid fa-wind"></i> WIND:</p>
+                        </div>
+                        <div >
+                            <p><i class="fa-solid fa-droplet"></i> HUMIDITY:</p>
+                        </div>
+                        <div >
+                            <p><i class="fa-solid fa-eye-low-vision"></i>VISIBILITY:</p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div>
+                            <p id="wind" ></p>
+                        </div>
+                        <div >
+                            <p id="humidity" ></p>
+                        </div>
+                        <div >
+                            <p id="visibility" ></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="forecast-details-temp">
+                    <div class="min">
+                        <p id="temp-min"></p>
+                        <p><i class="fa-solid fa-temperature-arrow-down"></i> MIN</p>
+                    </div>
+                    <div class="min">
+                        <p id="temp-max"></p>
+                        <p><i class="fa-solid fa-temperature-arrow-up"></i> MAX</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <p>by Lilia Dikova</p>
+    </footer>
+
+    <script src="source.js"></script>
+</body>
+
+</html>
