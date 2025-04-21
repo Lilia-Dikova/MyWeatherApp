@@ -12,11 +12,6 @@ A simple and responsive weather application built using **HTML, CSS, and JavaScr
 
 ---
 
-## 🖼️ Screenshots
-
-*Add screenshots here if you want!*
-
----
 
 ## 🛠️ Tech Stack
 
@@ -52,20 +47,18 @@ A simple and responsive weather application built using **HTML, CSS, and JavaScr
 
 ---
 
+
 ## 🔑 API Key
 
 This app uses the **OpenWeatherMap API**. You can get a free API key by signing up at [https://openweathermap.org/api](https://openweathermap.org/api)
 
---
+---
 
-## acknowledgements:
-  - name: OpenWeatherMap
-    url: https://openweathermap.org/
-    description: Weather data powered by OpenWeatherMap API
 
-  - name: Vanilla JavaScript community ❤️
-    url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
-    description: For all the documentation, tutorials, and endless support
+## 🙌 Acknowledgements
+
+- [OpenWeatherMap](https://openweathermap.org/) – for providing the weather data API  
+- Vanilla JavaScript community ❤️ – for all the tutorials, docs, and support
 
 
 
